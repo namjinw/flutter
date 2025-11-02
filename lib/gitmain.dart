@@ -33,7 +33,12 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
       ),
       body: Center(
-        child: Text("HELLO GITS"),
+        child: Column(
+          children: [
+            Text("data"),
+            Image.asset('assets/스크린샷.png')
+          ],
+        ),
       ),
     );
   }
